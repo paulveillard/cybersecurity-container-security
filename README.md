@@ -10,6 +10,8 @@
 ### Containers vs. virtual machines (VMs)
 One way to better understand a container is to understand how it differs from a traditional virtual machine (VM). In traditional virtualization—whether it be on-premises or in the cloud—a hypervisor is leveraged to virtualize physical hardware. Each VM then contains a guest OS, a virtual copy of the hardware that the OS requires to run, along with an application and its associated libraries and dependencies.
 
+![containers-vm](https://github.com/paulveillard/cybersecurity-container-security/blob/main/img/Containers-vs-VMs.png)
+
 
 ### What is container security?
 
