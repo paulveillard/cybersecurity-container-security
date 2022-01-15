@@ -3,35 +3,20 @@
 > A collection of awesome software, libraries, documents, books, resources and cool stuff about Microservices & Container Security. Thanks to all contributors, you're awesome and wouldn't be possible without you! Our goal is to build a categorized community-driven collection of very well-known resources.
 
 ## What are containers?
+[Containers](https://www.ibm.com/cloud/learn/containers) are executable units of software in which application code is packaged, along with its libraries and dependencies, in common ways so that it can be run anywhere, whether it be on desktop, traditional IT, or the cloud.
 
 ![containers](https://github.com/paulveillard/cybersecurity-container-security/blob/main/img/containers.png)
 
+### Containers vs. virtual machines (VMs)
 
-## What is container security?
+
+### What is container security?
 
 ### Security of Microservices and Containers
 There are multiple points of vulnerability which must be addressed to assure the security of containers and their microservice payloads.
 
-- 1. SECURE THE CONTAINER HOST
-Select a reliable, well-supported container-focused operating system to host your containers. This will help reduce your overall attack surface by removing services that aren’t required to host your container workloads. Add monitoring tools so you are aware of the health of the hosts. Using a managed container service from a reputable cloud service provider eliminates the need for you to manage this. They secure the host on your behalf and you simply run your containers.
+ - Secure 
 
-- 2. SECURE THE NETWORKING ENVIRONMENT
-Traffic moving to and from the internet should leverage an Intrusion Prevention System (IPS) and web filtering in order to stop attacks and filter malicious content. An IPS should also be deployed to monitor traffic between containers.
-
-- 3. SECURE YOUR MANAGEMENT STACK
-To comply with NIST container security guidelines, ensure that your container registry is properly secured and monitored. Lock down your Kubernetes installation and take advantage of features like Pod and network policies to enforce your security and development standards.
-
-Build on a secure foundation - Make sure to review and watch for communications from the project teams regarding any dependencies used in applications. When they patch their software, you’ll need to integrate those changes in order to reduce the risk to your application.
-
-Use a container image scanner to verify that your containers don’t contain any malware (top 48 malware attacks) or other known vulnerabilities, exposed secrets, as well as sweep for custom indicators of compromise (IoCs). This allows you to mitigate any risk before developing further or deploying to production.
-
-- 4. SECURE YOUR BUILD PIPELINE
-A thorough and consistent access control scheme is a must. Ensuring that only authorized users can access code repositories, integrate branches, and trigger builds that get pushed to production is a critical step to safeguarding the integrity of your pipeline.
-
-- 5. SECURE YOUR APPLICATION
-Code should follow best practices in order to increase quality. Most security container vulnerabilities are a result of simple mistakes or poor design choices. Focusing on code quality always pays security dividends. Use runtime self-protection controls to surface and identify security vulnerabilities and issues in specific lines of code. This helps close the gap during root cause analysis and leads to better overall security outcomes.
-
-- 6. SECURING YOUR PEOPLE
 
 ## Table of Contents
 
