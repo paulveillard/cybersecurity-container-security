@@ -13,10 +13,6 @@ One way to better understand a container is to understand how it differs from a 
 ![containers-vm](https://github.com/paulveillard/cybersecurity-container-security/blob/main/img/Containers-vs-VMs.png)
 
 
-### `What is container security?`
-
-### Security of Microservices and Containers
-There are multiple points of vulnerability which must be addressed to assure the security of containers and their microservice payloads.
 
 ### `Benefits of containers`
 
@@ -28,7 +24,21 @@ The primary advantage of containers, especially compared to a VM, is providing a
 * **Improves utilization:** - Like VMs before them, containers enable developers and operators to improve CPU and memory utilization of physical machines. Where containers go even further is that because they also enable microservice architectures, application components can be deployed and scaled more granularly, an attractive alternative to having to scale up an entire monolithic application because a single component is struggling with load.
 
 
+### `What is container security?`
+Container security is the use of security tools and policies to protect the container, its application and performance including infrastructure, software supply chain, system tools, system libraries, and runtime against cyber security threats.
+
+### `What are the challenges of Container Security?`
+
+
+* **Containers live in an ecosystem** — containers are not deployed standalone within an enterprise. Container workloads are deployed as part of an architecture that may include: Public (AWS, GCP, Azure) clouds, Private clouds (VMware) and Hybrid clouds integrated with traditional workloads comprised of servers and VMs, while working with serverless components on the compute side. These enterprises may also be using IaaS and PaaS services such as S3 buckets or RDS. Container workloads therefore need to be secured as part of an enterprise ecosystem.
+
+* **Containers are ephemeral:** -  Container lifecycles are often measured in seconds, but there is also a high degree of variability that makes generalizations difficult. Security teams need to account for the security and integrity of containers that may only be online for a few seconds, and others that may be online for weeks.
+
+* **Containers are built and deployed in CI/CD DevOps Pipelines.** - Container workloads tend to be developer led. The challenge for security is to empower developers to produce applications that are BornSecure. 
+
+
 ## `Table of Contents`
+
 * [Introduction](#what-are-containers)
 * [Foundations](#foundations)
 * [Specifications](#specifications)
