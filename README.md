@@ -25,11 +25,11 @@
 ## Image
 
 
-[Deepfence Runtime Threat Mapper](https://github.com/deepfence/ThreatMapper) - Identify vulnerabilities in running containers, images, hosts and repositories
+- [Deepfence Runtime Threat Mapper](https://github.com/deepfence/ThreatMapper) - Identify vulnerabilities in running containers, images, hosts and repositories
 
-[Dagda](https://github.com/eliasgranderubio/dagda/) - Static image analysis tool
+- [Dagda](https://github.com/eliasgranderubio/dagda/) - Static image analysis tool
 
-[Port Authority Open Source Security Scanner for Docker](https://www.linkedin.com/pulse/port-authority-open-source-security-scanner-docker-srinivasan/)
+- [Port Authority Open Source Security Scanner for Docker](https://www.linkedin.com/pulse/port-authority-open-source-security-scanner-docker-srinivasan/)
 * [Getting started guide](https://tech.target.com/open%20source/2018/06/07/port-authority-open-source-buzz.html)
 * [Source](https://github.com/target/portauthority)
 
