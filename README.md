@@ -8,6 +8,7 @@
 ![containers](https://github.com/paulveillard/cybersecurity-container-security/blob/main/img/containers.png)
 
 ### Containers vs. virtual machines (VMs)
+One way to better understand a container is to understand how it differs from a traditional virtual machine (VM). In traditional virtualization—whether it be on-premises or in the cloud—a hypervisor is leveraged to virtualize physical hardware. Each VM then contains a guest OS, a virtual copy of the hardware that the OS requires to run, along with an application and its associated libraries and dependencies.
 
 
 ### What is container security?
@@ -15,11 +16,18 @@
 ### Security of Microservices and Containers
 There are multiple points of vulnerability which must be addressed to assure the security of containers and their microservice payloads.
 
- - Secure 
+### Benefits of containers
+
+The primary advantage of containers, especially compared to a VM, is providing a level of abstraction that makes them lightweight and portable.
+
+* **Lightweight:** -  Containers share the machine OS kernel, eliminating the need for a full OS instance per application and making container files small and easy on resources. Their smaller size, especially compared to virtual machines, means they can spin up quickly and better support cloud-native applications that scale horizontally.  
+* **Portable and platform independent:** - Containers carry all their dependencies with them, meaning that software can be written once and then run without needing to be re-configured across laptops, cloud, and on-premises computing environments.
+* **Supports modern development and architecture:** - Due to a combination of their deployment portability/consistency across platforms and their small size, containers are an ideal fit for modern development and application patterns—such as DevOps, serverless, and microservices—that are built are regular code deployments in small increments.
+* **Improves utilization:** - Like VMs before them, containers enable developers and operators to improve CPU and memory utilization of physical machines. Where containers go even further is that because they also enable microservice architectures, application components can be deployed and scaled more granularly, an attractive alternative to having to scale up an entire monolithic application because a single component is struggling with load.
 
 
 ## Table of Contents
-
+* [Introduction](#what-are-containers)
 * [Foundations](#foundations)
 * [Specifications](#specifications)
 * [Clouds](#clouds)
