@@ -24,21 +24,18 @@
 
 ## Image
 
-------------------------------------------------------------------------------------------
-### [Deepfence Runtime Threat Mapper](https://github.com/deepfence/ThreatMapper)
-* Identify vulnerabilities in running containers, images, hosts and repositories
 
-### [Dagda](https://github.com/eliasgranderubio/dagda/)
-* Static image analysis tool
+### [Deepfence Runtime Threat Mapper](https://github.com/deepfence/ThreatMapper) - Identify vulnerabilities in running containers, images, hosts and repositories
+
+### [Dagda](https://github.com/eliasgranderubio/dagda/) - Static image analysis tool
 
 ### [Port Authority Open Source Security Scanner for Docker](https://www.linkedin.com/pulse/port-authority-open-source-security-scanner-docker-srinivasan/)
 * [Getting started guide](https://tech.target.com/open%20source/2018/06/07/port-authority-open-source-buzz.html)
 * [Source](https://github.com/target/portauthority)
-### [Understanding and Hardening Linux Containers](https://www.nccgroup.com/us/about-us/newsroom-and-events/blog/2016/april/understanding-and-hardening-linux-containers/)
-* The "War and Peace" of container security
 
-### [Security Assurance Requirements for Linux Application Container Deployments](https://nvlpubs.nist.gov/nistpubs/ir/2017/NIST.IR.8176.pdf)
-* Department of commerce guidance on container security
+### [Understanding and Hardening Linux Containers](https://www.nccgroup.com/us/about-us/newsroom-and-events/blog/2016/april/understanding-and-hardening-linux-containers/) -  The "War and Peace" of container security
+
+### [Security Assurance Requirements for Linux Application Container Deployments](https://nvlpubs.nist.gov/nistpubs/ir/2017/NIST.IR.8176.pdf) - Department of commerce guidance on container security
 
 ### [Dramatically Reducing Software Vulnerabilities](https://nvlpubs.nist.gov/nistpubs/ir/2016/NIST.IR.8151.pdf)
 * NIST guidance on reducing software vulnerabilities
