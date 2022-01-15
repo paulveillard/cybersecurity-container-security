@@ -2,23 +2,23 @@
 > Welcome To The World of Containers:
 > A collection of awesome software, libraries, documents, books, resources and cool stuff about Microservices & Container Security. Thanks to all contributors, you're awesome and wouldn't be possible without you! Our goal is to build a categorized community-driven collection of very well-known resources.
 
-## What are containers?
+## `What are containers?`
 [Containers](https://www.ibm.com/cloud/learn/containers) are executable units of software in which application code is packaged, along with its libraries and dependencies, in common ways so that it can be run anywhere, whether it be on desktop, traditional IT, or the cloud.
 
 ![containers](https://github.com/paulveillard/cybersecurity-container-security/blob/main/img/containers.png)
 
-### Containers vs. virtual machines (VMs)
+### `Containers vs. virtual machines (VMs)`
 One way to better understand a container is to understand how it differs from a traditional virtual machine (VM). In traditional virtualization—whether it be on-premises or in the cloud—a hypervisor is leveraged to virtualize physical hardware. Each VM then contains a guest OS, a virtual copy of the hardware that the OS requires to run, along with an application and its associated libraries and dependencies.
 
 ![containers-vm](https://github.com/paulveillard/cybersecurity-container-security/blob/main/img/Containers-vs-VMs.png)
 
 
-### What is container security?
+### `What is container security?`
 
 ### Security of Microservices and Containers
 There are multiple points of vulnerability which must be addressed to assure the security of containers and their microservice payloads.
 
-### Benefits of containers
+### `Benefits of containers`
 
 The primary advantage of containers, especially compared to a VM, is providing a level of abstraction that makes them lightweight and portable.
 
@@ -28,7 +28,7 @@ The primary advantage of containers, especially compared to a VM, is providing a
 * **Improves utilization:** - Like VMs before them, containers enable developers and operators to improve CPU and memory utilization of physical machines. Where containers go even further is that because they also enable microservice architectures, application components can be deployed and scaled more granularly, an attractive alternative to having to scale up an entire monolithic application because a single component is struggling with load.
 
 
-## Table of Contents
+## `Table of Contents`
 * [Introduction](#what-are-containers)
 * [Foundations](#foundations)
 * [Specifications](#specifications)
@@ -60,7 +60,7 @@ The primary advantage of containers, especially compared to a VM, is providing a
 **[`^        back to top        ^`](#)**
 
 
-## Foundations
+## `Foundations`
 
 * [OPEN CONTAINER INITIATIVE](https://www.opencontainers.org/)  
 The Open Container Initiative is a lightweight, open governance structure, to be formed under the auspices of the Linux Foundation, for the express purpose of creating open industry standards around container formats and runtime.
@@ -71,7 +71,7 @@ The Cloud Native Computing Foundation will create and drive the adoption of a ne
 **[`^        back to top        ^`](#)**
 The Cloud is our foundry.
 
-## Specifications
+## `Specifications`
 
 * [Open Container Specifications](https://github.com/opencontainers/specs)  
 This project is where the Open Container Initiative Specifications are written. This is a work in progress. 
@@ -88,7 +88,7 @@ A package format specification that describes a technology for bundling, install
 
 **[`^        back to top        ^`](#)**
 
-## Clouds
+## `Clouds`
 
 * [Amazon EC2 Container Service ](https://aws.amazon.com/ecs/)   
 Container management service that supports Docker containers and allows you to easily run applications on a managed cluster of Amazon EC2 instances.
@@ -123,7 +123,7 @@ Container Service is a high-performance and scalable container application manag
  
  **[`^        back to top        ^`](#)**
 
-## Operating Systems
+## `Operating Systems`
 
 * [CoreOs](https://coreos.com/)  
 A lightweight Linux operating system designed for clustered deployments providing automation, security, and scalability for your most critical applications.
@@ -150,7 +150,7 @@ MCL (*Minimal Container Linux*) is a from scratch minimal Linux OS designed spec
 
 **[`^        back to top        ^`](#)**
 
-## Hypervisors
+## `Hypervisors`
 
 * [Docker](https://github.com/veggiemonk/awesome-docker#cloud-infrastructure)  
 An open platform for distributed applications for developers and sysadmins. **Standard de facto**.
@@ -167,7 +167,7 @@ A container runtime which can manage a complete container lifecycle - from image
 
 **[`^        back to top        ^`](#)**
 
-## Containers
+## `Containers`
 
 * [runc](https://github.com/opencontainers/runc)  
 runc is a CLI tool for spawning and running containers according to the OCS specification.
@@ -212,7 +212,7 @@ A container runtime written in Rust.
 
 **[`^        back to top        ^`](#)**
 
-## Sandboxes
+## `Sandboxes`
 
 * [Firejail](https://l3net.wordpress.com/projects/firejail/)  
 Firejail is a SUID sandbox program that reduces the risk of security breaches by restricting the running environment of untrusted applications using Linux namespaces, seccomp-bpf and Linux capabilities.
@@ -231,7 +231,7 @@ Universal application containers for Linux.
 
 **[`^        back to top        ^`](#)**
 
-## Partial Access
+## `Partial Access`
 
 * [nsenter](http://man7.org/linux/man-pages/man1/nsenter.1.html)  
 Run program with namespaces of other processes. Part of the util-linux.
@@ -252,7 +252,7 @@ A "Lego set" of toolkit components for containers software created by Docker.
 
 **[`^        back to top        ^`](#)**
 
-## Filesystem
+## `Filesystem`
 
 * [container-diff](https://github.com/GoogleCloudPlatform/container-diff)  
 A tool for analyzing and comparing container images.
@@ -280,7 +280,7 @@ A Docker CLI plugin that that lets you push the README.md file from the current 
 **[`^        back to top        ^`](#)**
 
 
-## Dashboard
+## `Dashboard`
 
 * [LXC-Web-Panel](https://lxc-webpanel.github.io/)  
 Web panel for LXC on Ubuntu.
@@ -298,7 +298,7 @@ The twelve-factor app is a methodology for building software-as-a-service apps.
 * [Container Best Practices](http://docs.projectatomic.io/container-best-practices/)  
 A collaborative project to document container-based application architecture, creation and management from Project Atomic.
 
-## Security
+## `Security`
 
 ### Tools
 
