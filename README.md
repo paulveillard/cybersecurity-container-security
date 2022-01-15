@@ -38,6 +38,8 @@
   - [Miscellaneous](#miscellaneous)
     - [Presenations](#presentations)
 
+**[`^        back to top        ^`](#)**
+
 
 ## Foundations
 
@@ -46,6 +48,8 @@ The Open Container Initiative is a lightweight, open governance structure, to be
 * [Cloud Native Computing Foundation](https://cncf.io/)  
 The Cloud Native Computing Foundation will create and drive the adoption of a new set of common container technologies informed by technical merit and end user value, and inspired by Internet-scale computing.
 * [Cloud Foundry Foundation](https://www.cloudfoundry.org/foundation/)  
+
+**[`^        back to top        ^`](#)**
 The Cloud is our foundry.
 
 ## Specifications
@@ -62,6 +66,8 @@ Nulecule defines a pattern and model for packaging complex multi-container appli
 This is not a new container format, but simply a specific method for constructing a container that allows for better security and stability.
 * [Cloud Native Application Bundle Specification](https://github.com/deislabs/cnab-spec)  
 A package format specification that describes a technology for bundling, installing, and managing distributed applications, that are by design, cloud agnostic.
+
+**[`^        back to top        ^`](#)**
 
 ## Clouds
 
@@ -95,6 +101,8 @@ Azure Container Service optimizes the configuration of popular open source tools
 Container Service is a high-performance and scalable container application management service that enables you to use Docker and Kubernetes to manage the lifecycle of containerized applications.
 * [Nomad](https://www.nomadproject.io/)  
  HashiCorp Nomad is a single binary that schedules applications and services on Linux, Windows, and Mac. It is an open source scheduler that uses a declarative job file for scheduling virtualized, containerized, and standalone applications.
+ 
+ **[`^        back to top        ^`](#)**
 
 ## Operating Systems
 
@@ -121,6 +129,8 @@ Minimal Debian-based operating systems that is optimized to run Docker. It made 
 * [MCL](https://mcl.host)  
 MCL (*Minimal Container Linux*) is a from scratch minimal Linux OS designed specifically to run containers. It has a small footprint of ~50MB and boots within seconds. It is currently optimized to run Docker.
 
+**[`^        back to top        ^`](#)**
+
 ## Hypervisors
 
 * [Docker](https://github.com/veggiemonk/awesome-docker#cloud-infrastructure)  
@@ -135,6 +145,8 @@ Create a secure multi-user Docker machine, where each user is segregated into an
 Lithos is a process supervisor and containerizer for running services. It is not intended to be system init, but rather tries to be a base tool to build container orchestration.
 * [containerd](https://containerd.io/)  
 A container runtime which can manage a complete container lifecycle - from image transfer/storage to container execution, supervision and networking.
+
+**[`^        back to top        ^`](#)**
 
 ## Containers
 
@@ -179,6 +191,8 @@ Sysbox is a "runc" that creates secure (rootless) containers / pods that run not
 * [youki](https://github.com/containers/youki)  
 A container runtime written in Rust.
 
+**[`^        back to top        ^`](#)**
+
 ## Sandboxes
 
 * [Firejail](https://l3net.wordpress.com/projects/firejail/)  
@@ -195,6 +209,8 @@ xdg-app is a system for building, distributing and running sandboxed desktop app
 Run applications in a sandbox using Linux namespaces without root privileges, with user namespacing provided via setuid binary.
 * [singularity](https://github.com/singularityware/singularity)  
 Universal application containers for Linux.
+
+**[`^        back to top        ^`](#)**
 
 ## Partial Access
 
@@ -214,6 +230,8 @@ Works with Linux namespaces through glibc with pure python.
 Checkpoint/Restore In Userspace is a software tool for Linux operating system. Using this tool, you can freeze a running application (or part of it) and checkpoint it to a hard drive as a collection of files. CRIU integrated with Docker and LXC to implement Live migration of containers.
 * [Moby](https://github.com/moby/moby)  
 A "Lego set" of toolkit components for containers software created by Docker.
+
+**[`^        back to top        ^`](#)**
 
 ## Filesystem
 
@@ -239,6 +257,8 @@ Kaniko is a tool to build container images from a Dockerfile, inside a container
 Umoci is a tool to manipulate OCI container images, and can be used as a rudimentary build tool.
 * [docker pushrm](https://github.com/christian-korneck/docker-pushrm)  
 A Docker CLI plugin that that lets you push the README.md file from the current directory to a container registry. Supports Docker Hub, Quay and Harbor.
+
+**[`^        back to top        ^`](#)**
 
 
 ## Dashboard
@@ -680,4 +700,15 @@ This page is an attempt to document the ins and outs of containers on Linux. Thi
 ### [Vulnerability Exploitation In Docker Container Environments](https://www.youtube.com/watch?v=77-jaeUKH7c)
 ### [Docker Security Best Practices](https://dev.to/petermbenjamin/docker-security-best-practices-45ih)
 ### [Kubernetes Security Best Practices](https://dev.to/petermbenjamin/kubernetes-security-best-practices-hlk)
+
+
+
+**[`^        back to top        ^`](#)**
+
+## License
+MIT License & [cc](https://creativecommons.org/licenses/by/4.0/) license
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+
+To the extent possible under law, [Paul Veillard](https://github.com/paulveillard/) has waived all copyright and related or neighboring rights to this work.
 
