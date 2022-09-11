@@ -5,8 +5,6 @@
 ## `What are containers?`
 [Containers](https://www.ibm.com/cloud/learn/containers) are executable units of software in which application code is packaged, along with its libraries and dependencies, in common ways so that it can be run anywhere, whether it be on desktop, traditional IT, or the cloud.
 
-![containers-security](https://github.com/paulveillard/cybersecurity-container-security/blob/main/container-security/security-integration-points.png)
-
 ![containers](https://github.com/paulveillard/cybersecurity-container-security/blob/main/img/containers.png)
 
 ### `Containers vs. virtual machines (VMs)`
@@ -28,6 +26,8 @@ The primary advantage of containers, especially compared to a VM, is providing a
 
 ### `What is container security?`
 Container security is the use of security tools and policies to protect the container, its application and performance including infrastructure, software supply chain, system tools, system libraries, and runtime against cyber security threats.
+
+![containers-security](https://github.com/paulveillard/cybersecurity-container-security/blob/main/container-security/security-integration-points.png)
 
 ### `What are the challenges of Container Security?`
 
