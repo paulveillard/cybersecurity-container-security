@@ -5,6 +5,8 @@
 ## `What are containers?`
 [Containers](https://www.ibm.com/cloud/learn/containers) are executable units of software in which application code is packaged, along with its libraries and dependencies, in common ways so that it can be run anywhere, whether it be on desktop, traditional IT, or the cloud.
 
+![containers-security](https://github.com/paulveillard/cybersecurity-container-security/blob/main/container-security/security-integration-points.png)
+
 ![containers](https://github.com/paulveillard/cybersecurity-container-security/blob/main/img/containers.png)
 
 ### `Containers vs. virtual machines (VMs)`
